@@ -58,4 +58,12 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Trip.sql" />
+    <Build Include="Customer.sql" />
+    <Build Include="CustomerTripAssignment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DariuszPelka.TripManagementSystem.Database.refactorlog" />
+  </ItemGroup>
 </Project>

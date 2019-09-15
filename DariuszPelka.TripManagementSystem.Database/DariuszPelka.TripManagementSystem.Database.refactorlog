@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="980bf9fd-785f-4b24-9b41-3d76f4da6065" ChangeDateTime="09/15/2019 18:56:14">
+    <Property Name="ElementName" Value="[dbo].[Trip].[Arrival]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Trip]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ArrivalDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="82ef4aa4-0cdc-49bc-a47e-2a5ff73395c6" ChangeDateTime="09/15/2019 19:16:33">
+    <Property Name="ElementName" Value="[dbo].[FK_CustomerTripAssignment_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[CustomerTripAssignment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_CustomerTripAssignment_ToTrip]" />
+  </Operation>
+</Operations>
